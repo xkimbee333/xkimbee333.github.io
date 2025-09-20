@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+  <meta charset="UTF-8">
+  <title>ผลการเรียน - Kittiphong Grades</title>
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    body {
+      margin: 0;
+      font-family: 'Noto Sans Thai', sans-serif;
+      background-color: #ffffff;
+      color: black;
+    }
+
+    header {
+      background-color: #EC008C;
+      color: white;
+      padding: 20px 50px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    nav a {
+      margin: 0 15px;
+      color: #ffffff;
+      text-decoration: none;
+      font-weight: bold;
+      transition: color 0.3s ease;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+      color: white;
+    }
+
+    .grades {
+      padding: 50px;
+      max-width: 900px;
+      margin: auto;
+    }
+
+    .grades h1 {
+      color: black;
+      font-size: 2em;
+      margin-bottom: 20px;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: separate;
+      border-spacing: 0;
+      margin-top: 20px;
+      border-radius: 12px;
+      overflow: hidden;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    }
+
+    th, td {
+      padding: 14px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #EC008C;
+      color: white;
+      font-weight: bold;
+    }
+
+    td {
+      background-color: #f9f9f9;
+      border-bottom: 1px solid #ddd;
+    }
+
+    tr:last-child td {
+      border-bottom: none;
+    }
+
+    .summary {
+      margin-top: 30px;
+      font-size: 1.1em;
+      color: #2e3d2f;
+      text-align: center;
+    }
+
+    .buttons {
+      text-align: center;
+      margin-top: 40px;
+    }
+
+    .buttons a {
+      display: inline-block;
+      padding: 12px 24px;
+      background-color: #EC008C;
+      color: #ffffff;
+      text-decoration: none;
+      border-radius: 8px;
+      font-weight: bold;
+      transition: all 0.2s ease;
+      box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+    }
+
+    .buttons a:hover {
+      background-color: #004d26;
+    }
+
+    .buttons a:active {
+      transform: scale(0.97);
+      box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div><strong>PORTFOLIO คณะเทคโนโลยีสารสนเทศ สาขาวิศวกรรมคอมพิวเตอ</strong></div>
+    <nav>
+      <a href="index.html">หน้าหลัก</a>
+      <a href="projects.html">ผลงาน</a>
+      <a href="sop.html">SOP</a>
+      <a href="about.html">ประวัติ</a>
+      <a href="grades.html">เกรด</a>
+      <a href="activities.html">กิจกรรม</a>
+      <a href="contact.html">ติดต่อ</a>
+    </nav>
+  </header>
+
+  <div class="grades">
+    <h1>ผลการเรียน</h1>
+    <p>สรุปผลการเรียนในระดับมัธยมศึกษาตอนปลาย</p>
+
+    <table>
+      <tr>
+        <th>วิชา</th>
+        <th>หน่วยกิต</th>
+        <th>เกรดเฉลี่ย</th>
+      </tr>
+      <tr>
+        <td>ภาษาไทย</td>
+        <td>4.0</td>
+        <td>2.50</td>
+      </tr>
+      <tr>
+        <td>คณิตศาสตร์</td>
+        <td>4.0</td>
+        <td>3.62</td>
+      </tr>
+      <tr>
+        <td>วิทยาศาสตร์และเทคโนโลยี</td>
+        <td>8.5</td>
+        <td>3.82</td>
+      </tr>
+      <tr>
+        <td>สังคมและวัฒนธรรม</td>
+        <td>6.0</td>
+        <td>3.12</td>
+      </tr>
+      <tr>
+        <td>สุขศึกษาและพลศึกษา</td>
+        <td>4.0</td>
+        <td>4.00</td>
+      </tr>
+      <tr>
+        <td>ศิลปะ</td>
+        <td>2.0</td>
+        <td>3.75</td>
+      </tr>
+      <tr>
+        <td>การงานอาชีพ</td>
+        <td>1.0</td>
+        <td>3.75</td>
+      </tr>
+      <tr>
+        <td>ภาษาต่างประเทศ</td>
+        <td>44.0</td>
+        <td>2.96</td>
+      </tr>
+    </table>
+
+    <div class="summary">
+      <p><strong>หน่วยกิตรวม:</strong> 73.5</p>
+      <p><strong>GPA รวม:</strong> 3.17</p>
+    </div>
+
+    <div class="buttons">
+      <a href="index.html">← กลับหน้าหลัก</a>
+    </div>
+  </div>
+</body>
+</html>

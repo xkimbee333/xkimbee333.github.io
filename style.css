@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@400;700&display=swap');
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans Thai', sans-serif;
+  background-color: #ffffff;
+  color: black;
+}
+
+header {
+  background-color: #EC008C;
+  color: white;
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+nav a {
+  margin: 0 15px;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s ease;
+}
+
+nav a:hover {
+  text-decoration: underline;
+  color: white;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: center;
+  padding: 60px 50px;
+  background-color: #ffffff;
+}
+
+.text-area {
+  max-width: 50%;
+}
+
+.text-area h1 {
+  font-size: 2.5em;
+  color: black;
+  margin-bottom: 10px;
+}
+
+.text-area p {
+  font-size: 1.2em;
+  margin-bottom: 30px;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 15px;
+  padding: 12px 24px;
+  background-color: #EC008C;
+  color: white;
+  text-decoration: none;
+  border-radius: 8px;
+  font-weight: bold;
+  transition: all 0.2s ease;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.2);
+  position: relative;
+}
+
+.buttons a:hover {
+  background-color: #EC008C;
+}
+
+.buttons a:active {
+  transform: scale(0.97);
+  box-shadow: 0 2px 4px rgba(0,0,0,0.3);
+  background-color: #EC008C;
+}
+
+.image-area img {
+  width: 400px;
+  max-width: 100%;
+}
